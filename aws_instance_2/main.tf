@@ -1,5 +1,5 @@
 module "aws_instance_2" {
-    source = "../aws_instance"
+  source = "../aws_instance"
 
-    instance_name = "terraform-atb-2"
+  instance_name = "terraform-atb-2"
 }
