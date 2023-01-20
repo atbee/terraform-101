@@ -3,6 +3,6 @@ resource "aws_instance" "this" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terraform-atb"
+    Name = var.instance_name
   }
 }
